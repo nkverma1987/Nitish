@@ -1,0 +1,9 @@
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\DataModel.dll.config
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\DataModel.dll
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\DataModel.pdb
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\EntityFramework.dll
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\EntityFramework.xml
+G:\VS2015\POC\MVCDemoNew\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+G:\VS2015\POC\MVCDemoNew\DataModel\obj\Debug\DataModel.dll
+G:\VS2015\POC\MVCDemoNew\DataModel\obj\Debug\DataModel.pdb
