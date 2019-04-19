@@ -15,7 +15,7 @@ namespace MVCDemoNew.App_Start
 
         static DatabaseHelper()
         {
-            connectionString = ConfigurationManager.ConnectionStrings["test"].ConnectionString;
+            connectionString = ConfigurationManager.ConnectionStrings["NitishConnectionString"].ConnectionString;
             //errorCode = new SqlParameter() { ParameterName = StoredProcedureParameter.ErrorCode, MySqlDbType = MySqlDbType.VarChar, Direction = ParameterDirection.Output, Size = 50 };
             //errorMessage = new SqlParameter() { ParameterName = StoredProcedureParameter.ErrorMessage, SqlDbType = SqlDbType.VarChar, Direction = ParameterDirection.Output, Size = 200 };
         }

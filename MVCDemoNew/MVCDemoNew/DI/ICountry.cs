@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace MVCDemoNew.DI
 {
-    interface ICountry
+   public interface ICountry
     {
         List<tblCountry> GetCountries();
+        bool Create(out string message);
     }
 }

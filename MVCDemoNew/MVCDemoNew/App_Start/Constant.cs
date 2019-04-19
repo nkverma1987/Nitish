@@ -9,4 +9,12 @@ namespace MVCDemoNew.App_Start
     {
         public const int Size_Of_Page = 10;
     }
+    public class StoredProcedure
+    {
+        public const string USPAddCountry = "USPAddCountry";
+    }
+    public class StoredProcedureParameters
+    {
+        public const string CountryName = "@p_CountryName";
+    }
 }

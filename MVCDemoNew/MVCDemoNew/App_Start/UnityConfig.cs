@@ -18,7 +18,8 @@ namespace MVCDemoNew
 
             // e.g. container.RegisterType<ITestService, TestService>();
             container.RegisterType<IStudent, StudentClass>();
-            container.RegisterType<IApplicant, Applicant>();
+            container.RegisterType<IApplicant, Applicant>(); 
+                container.RegisterType<ICountry, Country>(); 
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
     }

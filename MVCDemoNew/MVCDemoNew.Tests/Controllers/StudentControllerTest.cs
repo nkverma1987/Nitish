@@ -12,7 +12,7 @@ namespace MVCDemoNew.Tests.Controllers
         public void Save()
         { 
             // Arrange
-            StudentController controller = new StudentController();
+            StudentController controller = new StudentController(null);
 
             // Act
             ViewResult result = controller.Index() as ViewResult;
