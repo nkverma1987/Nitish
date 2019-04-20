@@ -1,0 +1,24 @@
+﻿@model MVCDemoNew.App_Start.PartialViews
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br/>
+<br/>
+<div class="row">
+<button  class="btn btn-info btn-lg pull-right" data-toggle="modal" data-target="#modal-container" onclick="create()">Add Country</button>
+</div>
+<div id="divCountry" class="row">
+    <table id="tblCountry"></table>
+    <div id="pager"></div>
+</div>
+
+@Html.Partial(MVCDemoNew.App_Start.PartialViews.CountryListView)
+
+<script type="text/javascript">
+    function create()
+    {
+        $('#modal-container').load('@Url.Action("Add", "Country")');
+    }
+</script>

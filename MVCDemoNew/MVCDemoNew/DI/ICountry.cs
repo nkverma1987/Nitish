@@ -11,6 +11,7 @@ namespace MVCDemoNew.DI
    public interface ICountry
     {
         List<tblCountry> GetCountries();
-        bool Create(out string message);
+        List<Country> GetCountryList();
+        bool Create(Country country,out string message);
     }
 }

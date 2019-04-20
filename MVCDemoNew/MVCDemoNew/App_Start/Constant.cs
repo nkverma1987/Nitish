@@ -17,4 +17,9 @@ namespace MVCDemoNew.App_Start
     {
         public const string CountryName = "@p_CountryName";
     }
+    public class PartialViews
+    {
+        public const string CountryCreateEditView = "~/Views/Country/_CreateEdit.cshtml";
+        public const string CountryListView = "~/Views/Country/_List.cshtml";
+    }
 }

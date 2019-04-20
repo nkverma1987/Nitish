@@ -1,4 +1,5 @@
-﻿using MVCDemoNew.DI;
+﻿using MVCDemoNew.App_Start;
+using MVCDemoNew.DI;
 using MVCDemoNew.Models;
 using System;
 using System.Collections.Generic;
@@ -19,9 +20,19 @@ namespace MVCDemoNew.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public JsonResult GetCountries()
+        {
+            List<Country> countries = _country.GetCountryList();
+            return Json(countries, JsonRequestBehavior.AllowGet);
+        }
         public ActionResult Create()
         {
-            return PartialView("~/Views/Country/_CreateEdit.cshtml",new Country());
+            return PartialView(PartialViews.CountryCreateEditView,new Country());
+        }
+        public ActionResult Add()
+        {
+            return PartialView(PartialViews.CountryCreateEditView, new Country());
         }
         [HttpPost]
         public ActionResult Create(Country country)
@@ -30,7 +41,7 @@ namespace MVCDemoNew.Controllers
             string errorMessage = string.Empty;
             try
             {
-                hasError = _country.Create(out errorMessage);
+                hasError = _country.Create(country,out errorMessage);
             }
             catch (Exception ex)
             {
