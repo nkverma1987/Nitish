@@ -211,6 +211,8 @@ G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\bin\Microsoft.Owin.Security.O
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\bin\Microsoft.Owin.Security.Google.xml
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\bin\Microsoft.Owin.Security.Twitter.xml
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csprojResolveAssemblyReference.cache
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.dll
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.pdb
+G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csprojAssemblyReference.cache
+G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csproj.CoreCompileInputs.cache
+G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csproj.CopyComplete
