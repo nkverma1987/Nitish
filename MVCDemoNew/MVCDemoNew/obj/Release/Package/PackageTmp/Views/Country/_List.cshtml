@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MVCDemoNew.Models.Country>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        debugger;
+        $("#tblCountry").jqGrid({
+            url: '@Url.Action("GetCountries", "Country")',
+            contentType: "application/json",
+            datatype: 'json',
+            mtype: 'Get',
+            colNames: ['Id', 'Name'],
+            colModel: [
+                { name: 'Id' },
+                {  name: 'Name' }
+            ],
+            pager: jQuery('#pager'),
+            rowNum: 10,
+            rowList: [10, 20, 30, 40, 50],
+            height: '100%',
+            viewrecords: true,
+            emptyrecords: 'No Country Records are Available to Display',
+            jsonReader: {
+                repeatitems: false,
+                root: function (obj) { return obj; },
+                page: function (obj) { return 1; },
+                total: function (obj) { return 1; },
+                records: function (obj) { return obj.length; }
+            },
+            autowidth: true
+        }).navGrid("#pager", { edit: false, add: false, del: false });
+
+    });
+
+</script>

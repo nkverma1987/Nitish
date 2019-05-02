@@ -10,7 +10,7 @@ namespace MVCDemoNew.Controllers
     public class EmpoyeeController : Controller
     {
         // GET: Empoyee
-        public ActionResult Index()
+        public ActionResult Index() 
         {
             Employee emp = new Models.Employee();
             IEnumerable<Employee> employees = emp.GetEmployees();

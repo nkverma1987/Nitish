@@ -213,6 +213,4 @@ G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\bin\Microsoft.Owin.Security.T
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.dll
 G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.pdb
-G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csprojAssemblyReference.cache
-G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csproj.CoreCompileInputs.cache
-G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csproj.CopyComplete
+G:\VS2015\POC\ProjectWithGIT\MVCDemoNew\MVCDemoNew\obj\Debug\MVCDemoNew.csprojResolveAssemblyReference.cache
