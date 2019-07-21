@@ -13,7 +13,7 @@ namespace MVCDemoNew.Controllers
     public class ApplicantController : Controller
     {
         // GET: Applicant
-        private IApplicant applicant;
+        private IApplicant applicant;    
         public ApplicantController(IApplicant _applicant)
         {
             applicant = _applicant;
