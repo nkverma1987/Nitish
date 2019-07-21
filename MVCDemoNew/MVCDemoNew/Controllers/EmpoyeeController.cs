@@ -12,7 +12,7 @@ namespace MVCDemoNew.Controllers
         // GET: Empoyee
         public ActionResult Index() 
         {
-            
+            //emp data
             Employee emp = new Models.Employee();
             IEnumerable<Employee> employees = emp.GetEmployees();
             return PartialView("~/Views/Empoyee/_List.cshtml", employees);
